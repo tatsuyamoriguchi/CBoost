@@ -21,8 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         Chartboost.setLoggingLevel(.info)
 
-        Chartboost.start(withAppId: "51ddea8317ba47f056000006",
-                         appSignature: "c5f5cad159d649fdd407659337b9ca5a842434b7") { (success) in
+        Chartboost.start(withAppId: "51cb4f8017ba475165000001",
+                         appSignature: "9df79478e1554af958115050abaf0051673ff532") { (success) in
                             let vc = self.window?.rootViewController as? ViewController
                             vc?.log(message: success ? "Chartboost initialized successfully!" : "Chartboost failed to initialize.")
         }
