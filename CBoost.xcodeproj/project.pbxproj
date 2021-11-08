@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8749A31B16DF714541AF084B /* Pods_CBoost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A32A1522ED86F1D70276C6 /* Pods_CBoost.framework */; };
+		8C6096052738F35E0029B1F2 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6096042738F35E0029B1F2 /* Chartboost.framework */; };
+		8C6096072738F40B0029B1F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6096062738F40B0029B1F2 /* AVFoundation.framework */; };
+		8C6096092738F4140029B1F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6096082738F4140029B1F2 /* Foundation.framework */; };
+		8C60960B2738F41F0029B1F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C60960A2738F41F0029B1F2 /* CoreGraphics.framework */; };
+		8C60960D2738F4290029B1F2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C60960C2738F4290029B1F2 /* CoreMedia.framework */; };
+		8C60960F2738F4340029B1F2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C60960E2738F4330029B1F2 /* StoreKit.framework */; };
+		8C6096112738F43D0029B1F2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6096102738F43C0029B1F2 /* WebKit.framework */; };
+		8C6096132738F4470029B1F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6096122738F4470029B1F2 /* UIKit.framework */; };
 		8CBB76312738EB4500778EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB76302738EB4500778EC9 /* AppDelegate.swift */; };
 		8CBB76332738EB4500778EC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB76322738EB4500778EC9 /* SceneDelegate.swift */; };
 		8CBB76352738EB4500778EC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB76342738EB4500778EC9 /* ViewController.swift */; };
@@ -16,6 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F860F1CDAE2200E03EE4EEE /* Pods-CBoost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBoost.debug.xcconfig"; path = "Target Support Files/Pods-CBoost/Pods-CBoost.debug.xcconfig"; sourceTree = "<group>"; };
+		8C6096042738F35E0029B1F2 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		8C6096062738F40B0029B1F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8C6096082738F4140029B1F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C60960A2738F41F0029B1F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C60960C2738F4290029B1F2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8C60960E2738F4330029B1F2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8C6096102738F43C0029B1F2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8C6096122738F4470029B1F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C9C5FA52738F62A000D62E8 /* CBoost-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBoost-Bridging-Header.h"; sourceTree = "<group>"; };
 		8CBB762D2738EB4500778EC9 /* CBoost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBoost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBB76302738EB4500778EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBB76322738EB4500778EC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,8 @@
 		8CBB76392738EB4B00778EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CBB763C2738EB4B00778EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CBB763E2738EB4B00778EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A32A1522ED86F1D70276C6 /* Pods_CBoost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBoost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C667F39B6303591D9CAA8A /* Pods-CBoost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBoost.release.xcconfig"; path = "Target Support Files/Pods-CBoost/Pods-CBoost.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C60960D2738F4290029B1F2 /* CoreMedia.framework in Frameworks */,
+				8C6096132738F4470029B1F2 /* UIKit.framework in Frameworks */,
+				8C60960F2738F4340029B1F2 /* StoreKit.framework in Frameworks */,
+				8C6096112738F43D0029B1F2 /* WebKit.framework in Frameworks */,
+				8749A31B16DF714541AF084B /* Pods_CBoost.framework in Frameworks */,
+				8C6096052738F35E0029B1F2 /* Chartboost.framework in Frameworks */,
+				8C6096072738F40B0029B1F2 /* AVFoundation.framework in Frameworks */,
+				8C60960B2738F41F0029B1F2 /* CoreGraphics.framework in Frameworks */,
+				8C6096092738F4140029B1F2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B7D5914603CB6A7BA32CA4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F860F1CDAE2200E03EE4EEE /* Pods-CBoost.debug.xcconfig */,
+				E2C667F39B6303591D9CAA8A /* Pods-CBoost.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89B6B8F8569DF8DDB138E5D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C6096122738F4470029B1F2 /* UIKit.framework */,
+				8C6096102738F43C0029B1F2 /* WebKit.framework */,
+				8C60960E2738F4330029B1F2 /* StoreKit.framework */,
+				8C60960C2738F4290029B1F2 /* CoreMedia.framework */,
+				8C60960A2738F41F0029B1F2 /* CoreGraphics.framework */,
+				8C6096082738F4140029B1F2 /* Foundation.framework */,
+				8C6096062738F40B0029B1F2 /* AVFoundation.framework */,
+				8C6096042738F35E0029B1F2 /* Chartboost.framework */,
+				C6A32A1522ED86F1D70276C6 /* Pods_CBoost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8CBB76242738EB4500778EC9 = {
 			isa = PBXGroup;
 			children = (
 				8CBB762F2738EB4500778EC9 /* CBoost */,
 				8CBB762E2738EB4500778EC9 /* Products */,
+				6B7D5914603CB6A7BA32CA4C /* Pods */,
+				89B6B8F8569DF8DDB138E5D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +120,7 @@
 				8CBB76392738EB4B00778EC9 /* Assets.xcassets */,
 				8CBB763B2738EB4B00778EC9 /* LaunchScreen.storyboard */,
 				8CBB763E2738EB4B00778EC9 /* Info.plist */,
+				8C9C5FA52738F62A000D62E8 /* CBoost-Bridging-Header.h */,
 			);
 			path = CBoost;
 			sourceTree = "<group>";
@@ -74,6 +132,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CBB76412738EB4B00778EC9 /* Build configuration list for PBXNativeTarget "CBoost" */;
 			buildPhases = (
+				4570A3958C2FF78A297AD911 /* [CP] Check Pods Manifest.lock */,
 				8CBB76292738EB4500778EC9 /* Sources */,
 				8CBB762A2738EB4500778EC9 /* Frameworks */,
 				8CBB762B2738EB4500778EC9 /* Resources */,
@@ -132,6 +191,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4570A3958C2FF78A297AD911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CBoost-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8CBB76292738EB4500778EC9 /* Sources */ = {
@@ -216,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,10 +366,15 @@
 		};
 		8CBB76422738EB4B00778EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F860F1CDAE2200E03EE4EEE /* Pods-CBoost.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY7BG2G9TC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CBoost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,6 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beckos.CBoost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CBoost/CBoost-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,10 +390,15 @@
 		};
 		8CBB76432738EB4B00778EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C667F39B6303591D9CAA8A /* Pods-CBoost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY7BG2G9TC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CBoost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,6 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beckos.CBoost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CBoost/CBoost-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

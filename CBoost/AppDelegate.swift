@@ -11,10 +11,22 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+                print("Chartboost SDK Version ", Chartboost.getSDKVersion() ?? "")
+        
+        Chartboost.addDataUseConsent(.CCPA(.optInSale))
+        Chartboost.addDataUseConsent(.GDPR(.behavioral))
+
+        Chartboost.setLoggingLevel(.info)
+
+        Chartboost.start(withAppId: "51ddea8317ba47f056000006",
+                         appSignature: "c5f5cad159d649fdd407659337b9ca5a842434b7") { (success) in
+                            let vc = self.window?.rootViewController as? ViewController
+                            vc?.log(message: success ? "Chartboost initialized successfully!" : "Chartboost failed to initialize.")
+        }
+
         return true
     }
 
